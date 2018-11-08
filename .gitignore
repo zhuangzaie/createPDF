@@ -1,0 +1,12 @@
+# Intellij files
+.idea
+*.iml
+*.ipr
+*.iws
+.ideaDataSources/
+.shelf
+# Intellij default build output directory
+out/
+
+
+/target/

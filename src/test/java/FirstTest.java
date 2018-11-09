@@ -1,15 +1,12 @@
-package com.sinosoft.service;
+import com.sinosoft.common.PDFUtil;
+import com.sinosoft.domain.FirstInforList;
+import com.sinosoft.domain.FirstInformation;
+import org.apache.velocity.VelocityContext;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
-import org.apache.velocity.VelocityContext;
-
-import com.sinosoft.common.PDFUtil;
-import com.sinosoft.domain.FirstInforList;
-import com.sinosoft.domain.FirstInformation;
 
 /**
  * @author ZZE

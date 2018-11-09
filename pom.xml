@@ -10,6 +10,7 @@
   	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+
   <dependencies>
     <dependency>
 		<groupId>commons-lang</groupId>
@@ -48,8 +49,22 @@
 		<version>1.0</version>
 	</dependency>
 
+	  <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+	  <dependency>
+		  <groupId>com.sun.mail</groupId>
+		  <artifactId>javax.mail</artifactId>
+		  <version>1.6.0</version>
+	  </dependency>
+	  <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+	  <dependency>
+		  <groupId>javax.mail</groupId>
+		  <artifactId>mail</artifactId>
+		  <version>1.4.7</version>
+	  </dependency>
+
 	
   </dependencies>
+
   <build>
     <finalName>demo</finalName>
   </build>

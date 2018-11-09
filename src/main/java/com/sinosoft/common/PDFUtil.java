@@ -29,14 +29,7 @@ public class PDFUtil {
 	@SuppressWarnings("rawtypes")
 	private static Hashtable tempMap=new Hashtable();
 
-	
-	public static void main(String[] args) throws DocumentException, IOException {
-		//multiMakePDF();
-		System.out.println("success!");
-	}
 
-	
-	
 	/**
 	 * 创建PDF
 	 * 
